@@ -2,14 +2,12 @@ import sys
 from azure.cognitiveservices.vision.customvision.prediction import CustomVisionPredictionClient
 from msrest.authentication import ApiKeyCredentials
 
+PREDICTION_KEY = "<PREDICTION-KEY>"
+PUBLISH_ITERATION_NAME = "<ITERATION-NAME>"
 
-
-# PREDICTION_KEY = "<PREDICTION-KEY>"
-# PUBLISH_ITERATION_NAME = "<ITERATION-NAME>"
-
-# ENDPOINT = "<PREDICTION-RESOURCE-ENDPOINT>"
-# PROJECT_NAME = "<CUSTOM-VISION-PROJECT-NAME>"
-# PROJECT_ID = "<CUSTOM-VISION-PROJECT-ID>"
+ENDPOINT = "<PREDICTION-RESOURCE-ENDPOINT>"
+PROJECT_NAME = "<CUSTOM-VISION-PROJECT-NAME>"
+PROJECT_ID = "<CUSTOM-VISION-PROJECT-ID>"
 
 def predict(img):
     print("Predicting ...")
