@@ -17,4 +17,4 @@ Required packages -
 
 
 
-Note - you are free to modify the code to read entire directory of images and categorise all of them.
+Note - you are free to modify the code to read entire directory of images and categorise all of them or use a library to change file attributes to add most probable tag.
