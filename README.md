@@ -14,6 +14,9 @@ Required packages -
 
 `pip install azure.cognitiveservices.vision.customvision.prediction`
 
+Execution -
+
+![sample-prediction-output](https://github.com/TauseefMalik/screenshot-classifier/blob/main/unsample-data-prediction-2.PNG)
 
 
 
