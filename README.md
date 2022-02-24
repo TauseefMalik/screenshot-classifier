@@ -15,4 +15,6 @@ Required packages -
 `pip install azure.cognitiveservices.vision.customvision.prediction`
 
 
+
+
 Note - you are free to modify the code to read entire directory of images and categorise all of them.
